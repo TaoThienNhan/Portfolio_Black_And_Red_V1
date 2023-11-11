@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, $main_color, #001e30, #001e35);
+}
+
+.container-fluid {
+  .strikethrough {
+    width: 100px;
+    height: 3px;
+    background-color: #f71735;
+    margin: 40px 15px 0 10px;
+  }
+
+  p.title {
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    display: inline-block;
+    border-width: 4px 0;
+
+    span.title {
+      font-size: 40px;
+      font-family: "Oswald", sans-serif;;
+      letter-spacing: 0;
+      padding: 20px;
+      margin: 0 auto;
+      text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+      /* Clip Background Image */
+      background-image: url(https://raw.githubusercontent.com/TaoThienNhan/Image/main/background/animated-text-fill.png);
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      /* Animate Background Image */
+
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: aitf 80s linear infinite;
+
+      -webkit-transform: translate3d(0,0,0);
+      -webkit-backface-visibility: hidden;
+
+    }
+  }
+
+  /* Animate Background Image */
+
+  @-webkit-keyframes aitf {
+    0% { background-position: 0 50%; }
+    100% { background-position: 100% 50%; }
+  }
+}
+
+h2 span:before, h2 span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  width: 35px;
+  height: 3px;
+  background: #f71735;
+}

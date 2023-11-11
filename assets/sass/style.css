@@ -11106,4 +11106,18 @@ header .job {
   background-color: #f71735;
 }
 
+.blogs {
+  background-color: #011627;
+}
+.blogs .blogs-box {
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.blogs .blogs-box h5, .blogs .blogs-box .h5, .blogs .blogs-box a {
+  font-weight: bold;
+}
+.blogs .blogs-box span, .blogs .blogs-box i, .blogs .blogs-box p {
+  color: #6c757d;
+}
+
 /*# sourceMappingURL=style.css.map */

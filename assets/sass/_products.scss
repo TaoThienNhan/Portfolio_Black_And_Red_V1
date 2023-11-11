@@ -1,0 +1,20 @@
+.products {
+    background-color: $main_color;
+
+    .col-lg-3 {
+        width: 350px;
+    }
+
+    .products-box {
+        margin: 5px;
+        background-color: rgba(255, 255, 255, 0.05);
+
+        h5 {
+            font-weight: bold;
+        }
+
+        span, i, p {
+            color: #6c757d;
+        }
+    }
+}

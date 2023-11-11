@@ -11076,4 +11076,21 @@ header .job {
   text-align: justify;
 }
 
+.products {
+  background-color: #011627;
+}
+.products .col-lg-3 {
+  width: 350px;
+}
+.products .products-box {
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.products .products-box h5, .products .products-box .h5 {
+  font-weight: bold;
+}
+.products .products-box span, .products .products-box i, .products .products-box p {
+  color: #6c757d;
+}
+
 /*# sourceMappingURL=style.css.map */

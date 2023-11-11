@@ -1,0 +1,28 @@
+footer {
+    background-color: $main_color;
+    min-height: 60px;
+    font-size: 12px;
+
+    i {
+        font-size: 25px;
+        transition: ease all 0.35s;
+    }
+
+    .dmca-badge img{
+        position: relative;
+        top: -8px;
+    }
+
+    i:hover {
+        color: #f71735;
+    }
+
+    a {
+        color: #f71735;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #f71735;
+    }
+}

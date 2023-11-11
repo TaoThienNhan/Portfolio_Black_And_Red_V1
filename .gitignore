@@ -1,0 +1,9 @@
+# Node dependencies
+node_modules
+
+# Misc
+.idea
+
+# Ignore input.css.map
+style.css.map
+/package-lock.json

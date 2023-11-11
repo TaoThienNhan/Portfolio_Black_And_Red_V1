@@ -10991,4 +10991,68 @@ header .job {
   border-radius: 100px;
 }
 
+.services {
+  background-color: #011627;
+}
+.services .hex {
+  position: relative;
+  top: -75px;
+  margin: 1em auto;
+  width: 5.5em;
+  height: 9em;
+  border-radius: 1em/0.5em;
+  background: #f71735;
+  transition: ease all 0.35s;
+}
+.services .hex:before,
+.services .hex:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: "";
+}
+.services .hex:before {
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+.services .hex:after {
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+.services i {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  z-index: 2;
+  font-size: 50px;
+}
+.services .my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+.services .feature-box {
+  padding: 0 15%;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  margin-top: 50px;
+  border: 3px solid transparent;
+  transition: ease all 0.35s;
+}
+.services .feature-box:hover {
+  border: 2px solid #f71735;
+}
+.services .feature-box:hover .hex {
+  top: -60px;
+}
+.services .feature-content {
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
+.services .feature-content h5, .services .feature-content .h5 {
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */

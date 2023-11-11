@@ -1,0 +1,76 @@
+.services {
+  background-color: $main_color;
+
+  .hex {
+    position: relative;
+    top: -75px;
+    margin: 1em auto;
+    width: 5.5em;
+    height: 9em;
+    border-radius: 1em/.5em;
+    background: #f71735;
+    transition: ease all 0.35s;
+  }
+
+  .hex:before,
+  .hex:after {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+    content: '';
+  }
+
+  .hex:before {
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+  }
+
+  .hex:after {
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+  }
+
+  i {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 2;
+    font-size: 50px;
+  }
+
+  .my-3 {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+  }
+
+  .feature-box {
+    padding: 0 15%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    margin-top: 50px;
+    border: 3px solid transparent;
+    transition: ease all 0.35s;
+  }
+
+  .feature-box:hover  {
+    border: 2px solid #f71735;
+
+    .hex {
+      top: -60px;
+    }
+  }
+
+  .feature-content {
+    position: relative;
+    top: -50px;
+    text-align: center;
+
+    h5 {
+      font-weight: bold;
+    }
+
+
+  }
+}

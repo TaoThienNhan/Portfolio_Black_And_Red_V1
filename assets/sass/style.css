@@ -11120,4 +11120,32 @@ header .job {
   color: #6c757d;
 }
 
+.contact {
+  background-color: #001e35;
+}
+.contact .box-contact {
+  background: rgba(255, 255, 255, 0.05);
+}
+.contact .box-contact .content {
+  text-align: justify;
+  color: #cccccc;
+}
+.contact .box-contact .title {
+  border-left: 2px solid #f71735;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.contact .box-contact i {
+  font-size: 30px;
+  transition: ease all 0.35s;
+}
+.contact .box-contact i:hover {
+  color: #f71735;
+}
+.contact .box-contact input, .contact .box-contact textarea {
+  background: none;
+  outline: 0;
+}
+
 /*# sourceMappingURL=style.css.map */

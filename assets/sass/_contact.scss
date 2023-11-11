@@ -1,0 +1,33 @@
+.contact {
+    background-color: #001e35;
+
+    .box-contact {
+        background: rgba(255, 255, 255, 0.05);
+
+        .content {
+            text-align: justify;
+            color: #cccccc;
+        }
+
+        .title {
+            border-left: 2px solid #f71735;
+            font-size: 18px;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+
+        i {
+            font-size: 30px;
+            transition: ease all 0.35s;
+        }
+
+        i:hover {
+            color: #f71735;
+        }
+
+        input, textarea {
+            background: none;
+            outline: 0;
+        }
+    }
+}

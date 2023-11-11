@@ -11055,4 +11055,25 @@ header .job {
   font-weight: bold;
 }
 
+.experience-award {
+  background-color: #001e35;
+}
+.experience-award .resume-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  transition: ease all 0.35s;
+}
+.experience-award .resume-box:hover {
+  border: 2px solid #f71735;
+}
+.experience-award h6, .experience-award .h6 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.experience-award h5, .experience-award .h5 {
+  font-weight: bold;
+}
+.experience-award p {
+  text-align: justify;
+}
+
 /*# sourceMappingURL=style.css.map */

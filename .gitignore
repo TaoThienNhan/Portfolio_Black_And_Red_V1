@@ -7,3 +7,4 @@ node_modules
 # Ignore input.css.map
 style.css.map
 /package-lock.json
+/yarn.lock

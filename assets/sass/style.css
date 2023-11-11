@@ -11093,4 +11093,17 @@ header .job {
   color: #6c757d;
 }
 
+.testimonials {
+  background-color: #001e35;
+}
+.testimonials img {
+  margin-bottom: 130px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 100px;
+}
+.testimonials button.active {
+  background-color: #f71735;
+}
+
 /*# sourceMappingURL=style.css.map */

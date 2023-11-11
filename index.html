@@ -8,65 +8,163 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/sass/style.css">
 </head>
-<body  id="body" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
-    <div id="app" class="container-fluid p-0">
-        <main class="py-4">
-            <nav class="navbar navbar-expand-lg navbar-light ps-5 pe-5 fixed-top text-light" id="navbar">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#home">TÀO THIỆN NHÂN</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#home">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#services">SERVICES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#products">PRODUCTS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#blogs">BLOGS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">CONTACT</a>
-                            </li>
-                        </ul>
+<body id="body" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true">
+<div id="app" class="container-fluid p-0">
+    <main class="py-4">
+        <nav class="navbar navbar-expand-lg navbar-light ps-5 pe-5 fixed-top text-light" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">TÀO THIỆN NHÂN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blogs">BLOGS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="text-light" id="home">
+            <div class="container text-light">
+                <div class="row">
+                    <div class="col-sm-6 pt-lg-5">
+                        <span class="greeting">Hi There, I'm </span>
+                        <div class='console-container'>
+                            <span id='text'></span>
+                            <div class='console-underscore' id='console'>&#95;</div>
+                        </div>
+                        <div class="strikethrough"></div>
+                        <div class="introduction">
+                            <p class="job">Web Developer</p>
+                            <p>Welcome to my website, if you have read here I would like to briefly introduce myself a
+                                little, my name is Tao Thien Nhan, this year is 20 old, currently studying at FPT
+                                Polytechnic, website programming, very happy to visit the website.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-center ">
+                        <div class="shape">
+                            <img src="https://raw.githubusercontent.com/TaoThienNhan/Image/main/avatars/AvatarMain.png"
+                                 alt="Main Avatar" class="main-avatar border-4 img-fluid mb-3">
+                        </div>
                     </div>
                 </div>
-            </nav>
-            <header class="text-light" id="home">
-                <div class="container text-light">
-                    <div class="row">
-                        <div class="col-sm-6 pt-lg-5">
-                            <span class="greeting">Hi There, I'm </span>
-                            <div class='console-container'>
-                                <span id='text'></span>
-                                <div class='console-underscore' id='console'>&#95;</div>
+            </div>
+        </header>
+        <section class="about" id="about">
+            <div class="container pt-5 pb-5">
+                <div class="d-flex justify-content-center pt-5 pb-5">
+                    <p class="title">
+                        <span class="title">ABOUT</span>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 d-flex justify-content-center">
+                        <img src="https://raw.githubusercontent.com/TaoThienNhan/Image/main/avatars/my-banner.png" alt="Avatar About"
+                             class="img-fluid rounded-bottom">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="information mt-5">
+                            <div class="title">
+                                About Me
                             </div>
-                            <div class="strikethrough"></div>
-                            <div class="introduction">
-                                <p class="job">Web Developer</p>
-                                <p>Welcome to my website, if you have read here I would like to briefly introduce myself a little, my name is Tao Thien Nhan, this year is 20 old, currently studying at FPT Polytechnic, website programming, very happy to visit the website.</p>
+                            <div class="content">
+                                <div class="content-title">Hello, my name is Tao Thien Nhan and i'm WEB Developer.</div>
+                                <div class="text-secondary">This website is my personal website, above I post products built by myself, I don't have too much experience at the moment so the products may not be of good quality but hopefully you can ignore that and I also hope that you like my products, If you have read this far I extend my sincere thanks to you, wishing you a good day.</div>
                             </div>
                         </div>
-                        <div class="col-sm-6 d-flex justify-content-center ">
-                            <div class="shape">
-                                <img src="https://raw.githubusercontent.com/TaoThienNhan/Image/main/avatars/AvatarMain.png" alt="Main Avatar" class="main-avatar border-4 img-fluid mb-3">
+                        <div class="information mt-3">
+                            <div class="title">
+                                My Tool And IDE
+                            </div>
+                            <div class="nav content">
+                                <span class="border border-secondary text-secondary rounded-1 p-2">PHPStorm</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">Photoshop</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">Figma</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">Github</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">Gitlab</span>
+                            </div>
+                        </div>
+                        <div class="information mt-3">
+                            <div class="title">
+                                Technologies And Skills
+                            </div>
+                            <div class="nav content">
+                                <span class="border border-secondary text-secondary rounded-1 p-2">HTML5</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">CSS3</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">SCSS</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">PHP</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">MYSQL</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">Laravel</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">Jquery</span>
+                                <span class="border border-secondary text-secondary rounded-1 p-2">Bootstrap</span>
+                            </div>
+                        </div>
+                        <div class="information mt-3">
+                            <div class="title">
+                                Work Process
+                            </div>
+                            <div class="content">
+                                <div class="row g-1">
+                                    <div class="col-6 col-sm-3">
+                                        <div class="d-flex align-items-center">
+                                            <span class="bg-danger rounded-5 process pt-2">#01</span>
+                                            <div class="col ps-2">Research</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-3">
+                                        <div class="d-flex align-items-center">
+                                            <span class="bg-danger rounded-5 process pt-2">#02</span>
+                                            <div class="col ps-2">Design</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-3">
+                                        <div class="d-flex align-items-center">
+                                            <span class="bg-danger rounded-5 process pt-2">#03</span>
+                                            <div class="col ps-2">Coding</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-3">
+                                        <div class="d-flex align-items-center">
+                                            <span class="bg-danger rounded-5 process pt-2">#04</span>
+                                            <div class="col ps-2">Testing</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-3">
+                                        <div class="d-flex align-items-center">
+                                            <span class="bg-danger rounded-5 process pt-2">#05</span>
+                                            <div class="col ps-2">Launch</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
-        </main>
-    </div>
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/text-effect.js"></script>
+            </div>
+        </section>
+    </main>
+</div>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/text-effect.js"></script>
 </body>
 </html>

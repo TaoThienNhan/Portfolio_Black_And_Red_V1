@@ -1,0 +1,35 @@
+.about {
+  background-color: #001e35;
+
+  .information {
+
+    .content {
+      text-align: justify;
+      color: #cccccc;
+    }
+
+    .title {
+      border-left: 2px solid #f71735;
+      font-size: 20px;
+      padding-left: 10px;
+    }
+
+    .content {
+      padding: 11px;
+      font-size: 15px;
+
+      span {
+        margin: 5px;
+      }
+
+      .process {
+        min-width: 40px;
+        min-height: 40px;
+        text-align: center;
+        border-radius: 100px;
+      }
+
+    }
+
+  }
+}

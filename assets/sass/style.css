@@ -10965,5 +10965,30 @@ header .job {
     border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
   }
 }
+.about {
+  background-color: #001e35;
+}
+.about .information .content {
+  text-align: justify;
+  color: #cccccc;
+}
+.about .information .title {
+  border-left: 2px solid #f71735;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.about .information .content {
+  padding: 11px;
+  font-size: 15px;
+}
+.about .information .content span {
+  margin: 5px;
+}
+.about .information .content .process {
+  min-width: 40px;
+  min-height: 40px;
+  text-align: center;
+  border-radius: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */

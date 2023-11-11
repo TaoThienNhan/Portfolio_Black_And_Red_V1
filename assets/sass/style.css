@@ -10719,5 +10719,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav {
+  background-color: #011627;
+}
+nav a.nav-link {
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 10px;
+}
+nav .navbar-nav .show > .nav-link, nav .navbar-nav .nav-link.active {
+  color: #f71735;
+}
+nav .nav-link:hover, nav .nav-link:focus {
+  color: white;
+}
+nav a.nav-link:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px white;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  color: white;
+}
+nav a.nav-link:hover {
+  color: white;
+}
+nav a.nav-link:hover:after {
+  transform: scaleX(1);
+}
+nav a.nav-link:after {
+  transform-origin: 0 50%;
+}
+nav a.navbar-brand, nav a.navbar-brand:hover {
+  color: white;
+  font-weight: bold;
+}
+nav a.navbar-brand, nav a.navbar-brand.active {
+  color: white;
+}
+nav a.navbar-brand, nav a.navbar-brand:focus {
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
